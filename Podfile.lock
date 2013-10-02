@@ -19,8 +19,6 @@ PODS:
   - AFNetworking/Serialization (2.0.0)
   - AFNetworking/UIKit (2.0.0):
     - AFNetworking/NSURLConnection
-  - CrittercismSDK (4.0.7)
-  - FlurrySDK (4.2.3)
   - Mantle (1.3):
     - Mantle/extobjc
   - Mantle/extobjc (1.3)
@@ -28,15 +26,11 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - CrittercismSDK
-  - FlurrySDK
   - Mantle
   - ViewDeck (~> 2.2.11)
 
 SPEC CHECKSUMS:
   AFNetworking: 3fa983b1beaba69566a3374612511e2a6e3fe845
-  CrittercismSDK: 23b8193df3619a74597a1f81b9c09ab7e53a1508
-  FlurrySDK: 20b3fd669eeafd005ca8ff65a1406d1befbc8031
   Mantle: c3e963daaad6f1418feacce974d789b2d0465539
   ViewDeck: b5eddc8559b0e47259ab7addbf2de6768061f139
 
