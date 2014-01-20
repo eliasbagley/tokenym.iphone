@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <AFNetworkActivityLogger/AFNetworkActivityLogger.h>
 
 @implementation AppDelegate
 
@@ -18,6 +19,10 @@
     self.window.rootViewController = [storyBoard instantiateInitialViewController];
     self.window.backgroundColor = [UIColor lightGrayColor];
     [self.window makeKeyAndVisible];
+
+    [[AFNetworkActivityLogger sharedLogger] startLogging];
+    [[AFNetworkActivityLogger sharedLogger] setLevel:AFLoggerLevelDebug];
+
     return YES;
 }
 

@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD063D19188C9B9E00BF8948 /* PinController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD063D18188C9B9E00BF8948 /* PinController.m */; };
+		BD063D1A188C9B9E00BF8948 /* PinController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD063D18188C9B9E00BF8948 /* PinController.m */; };
+		BD063D1D188C9BB100BF8948 /* TokenController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD063D1C188C9BB100BF8948 /* TokenController.m */; };
+		BD063D1E188C9BB100BF8948 /* TokenController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD063D1C188C9BB100BF8948 /* TokenController.m */; };
+		BD063D21188C9FCD00BF8948 /* TokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD063D20188C9FCD00BF8948 /* TokenRequest.m */; };
+		BD063D22188C9FCD00BF8948 /* TokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD063D20188C9FCD00BF8948 /* TokenRequest.m */; };
+		BD063D25188CA14200BF8948 /* LogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD063D24188CA14200BF8948 /* LogoutRequest.m */; };
+		BD063D26188CA14200BF8948 /* LogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD063D24188CA14200BF8948 /* LogoutRequest.m */; };
+		BD063D29188CA2FE00BF8948 /* RedeemTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD063D28188CA2FE00BF8948 /* RedeemTokenRequest.m */; };
+		BD063D2A188CA2FE00BF8948 /* RedeemTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD063D28188CA2FE00BF8948 /* RedeemTokenRequest.m */; };
+		BD275035188C7688007B60E8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BD275034188C7688007B60E8 /* User.m */; };
+		BD275036188C7688007B60E8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BD275034188C7688007B60E8 /* User.m */; };
+		BD275039188C7716007B60E8 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD275038188C7716007B60E8 /* LoginRequest.m */; };
+		BD27503A188C7716007B60E8 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD275038188C7716007B60E8 /* LoginRequest.m */; };
+		BD27503D188C7957007B60E8 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD27503C188C7957007B60E8 /* RegisterController.m */; };
+		BD27503E188C7957007B60E8 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD27503C188C7957007B60E8 /* RegisterController.m */; };
+		BD275041188C8093007B60E8 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD275040188C8093007B60E8 /* LoginController.m */; };
+		BD275042188C8093007B60E8 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD275040188C8093007B60E8 /* LoginController.m */; };
 		BD32A2CE17F7A86800851A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD32A2CD17F7A86800851A5A /* Foundation.framework */; };
 		BD32A2D017F7A86800851A5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD32A2CF17F7A86800851A5A /* CoreGraphics.framework */; };
 		BD32A2D217F7A86800851A5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD32A2D117F7A86800851A5A /* UIKit.framework */; };
@@ -41,6 +59,24 @@
 /* Begin PBXFileReference section */
 		1D687D4F7B274A44ADE6CC80 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		7D2A71864903459F9163D94F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD063D17188C9B9E00BF8948 /* PinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinController.h; sourceTree = "<group>"; };
+		BD063D18188C9B9E00BF8948 /* PinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinController.m; sourceTree = "<group>"; };
+		BD063D1B188C9BB100BF8948 /* TokenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenController.h; sourceTree = "<group>"; };
+		BD063D1C188C9BB100BF8948 /* TokenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenController.m; sourceTree = "<group>"; };
+		BD063D1F188C9FCD00BF8948 /* TokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenRequest.h; sourceTree = SOURCE_ROOT; };
+		BD063D20188C9FCD00BF8948 /* TokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenRequest.m; sourceTree = SOURCE_ROOT; };
+		BD063D23188CA14200BF8948 /* LogoutRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutRequest.h; sourceTree = SOURCE_ROOT; };
+		BD063D24188CA14200BF8948 /* LogoutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutRequest.m; sourceTree = SOURCE_ROOT; };
+		BD063D27188CA2FE00BF8948 /* RedeemTokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedeemTokenRequest.h; sourceTree = SOURCE_ROOT; };
+		BD063D28188CA2FE00BF8948 /* RedeemTokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedeemTokenRequest.m; sourceTree = SOURCE_ROOT; };
+		BD275033188C7688007B60E8 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = SOURCE_ROOT; };
+		BD275034188C7688007B60E8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = SOURCE_ROOT; };
+		BD275037188C7716007B60E8 /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = SOURCE_ROOT; };
+		BD275038188C7716007B60E8 /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = SOURCE_ROOT; };
+		BD27503B188C7957007B60E8 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		BD27503C188C7957007B60E8 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		BD27503F188C8093007B60E8 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		BD275040188C8093007B60E8 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		BD32A2CA17F7A86800851A5A /* Tokenym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tokenym.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD32A2CD17F7A86800851A5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BD32A2CF17F7A86800851A5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -171,6 +207,14 @@
 			children = (
 				BD37656217FBBF46005F532D /* TokenViewController.h */,
 				BD37656317FBBF46005F532D /* TokenViewController.m */,
+				BD27503B188C7957007B60E8 /* RegisterController.h */,
+				BD27503C188C7957007B60E8 /* RegisterController.m */,
+				BD27503F188C8093007B60E8 /* LoginController.h */,
+				BD275040188C8093007B60E8 /* LoginController.m */,
+				BD063D17188C9B9E00BF8948 /* PinController.h */,
+				BD063D18188C9B9E00BF8948 /* PinController.m */,
+				BD063D1B188C9BB100BF8948 /* TokenController.h */,
+				BD063D1C188C9BB100BF8948 /* TokenController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -178,6 +222,16 @@
 		BD37655717FBB036005F532D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BD275033188C7688007B60E8 /* User.h */,
+				BD275034188C7688007B60E8 /* User.m */,
+				BD275037188C7716007B60E8 /* LoginRequest.h */,
+				BD275038188C7716007B60E8 /* LoginRequest.m */,
+				BD063D1F188C9FCD00BF8948 /* TokenRequest.h */,
+				BD063D20188C9FCD00BF8948 /* TokenRequest.m */,
+				BD063D23188CA14200BF8948 /* LogoutRequest.h */,
+				BD063D24188CA14200BF8948 /* LogoutRequest.m */,
+				BD063D27188CA2FE00BF8948 /* RedeemTokenRequest.h */,
+				BD063D28188CA2FE00BF8948 /* RedeemTokenRequest.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -338,10 +392,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD275035188C7688007B60E8 /* User.m in Sources */,
+				BD063D25188CA14200BF8948 /* LogoutRequest.m in Sources */,
+				BD275041188C8093007B60E8 /* LoginController.m in Sources */,
 				BD37656417FBBF46005F532D /* TokenViewController.m in Sources */,
 				BD32A2DE17F7A86800851A5A /* AppDelegate.m in Sources */,
+				BD063D29188CA2FE00BF8948 /* RedeemTokenRequest.m in Sources */,
+				BD275039188C7716007B60E8 /* LoginRequest.m in Sources */,
+				BD27503D188C7957007B60E8 /* RegisterController.m in Sources */,
 				BD32A2DA17F7A86800851A5A /* main.m in Sources */,
+				BD063D21188C9FCD00BF8948 /* TokenRequest.m in Sources */,
 				BD37655C17FBB109005F532D /* TokenymAPIClient.m in Sources */,
+				BD063D19188C9B9E00BF8948 /* PinController.m in Sources */,
+				BD063D1D188C9BB100BF8948 /* TokenController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +412,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD275042188C8093007B60E8 /* LoginController.m in Sources */,
+				BD275036188C7688007B60E8 /* User.m in Sources */,
 				BD32A2F317F7A86800851A5A /* TokenymTests.m in Sources */,
+				BD063D2A188CA2FE00BF8948 /* RedeemTokenRequest.m in Sources */,
+				BD063D22188C9FCD00BF8948 /* TokenRequest.m in Sources */,
+				BD063D1E188C9BB100BF8948 /* TokenController.m in Sources */,
+				BD063D26188CA14200BF8948 /* LogoutRequest.m in Sources */,
+				BD27503E188C7957007B60E8 /* RegisterController.m in Sources */,
 				BD37655D17FBB109005F532D /* TokenymAPIClient.m in Sources */,
+				BD063D1A188C9B9E00BF8948 /* PinController.m in Sources */,
 				BD37656517FBBF46005F532D /* TokenViewController.m in Sources */,
+				BD27503A188C7716007B60E8 /* LoginRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,10 +10,20 @@
 
 typedef void(^APIClientErrorBlock)(NSError *error);
 
+@class LoginRequest;
+@class LogoutRequest;
+@class RedeemTokenRequest;
+@class TokenRequest;
+
 @interface TokenymAPIClient : AFHTTPSessionManager
 
 +(instancetype) sharedClient;
 
--(void) getToken:(NSString*)moniker success:(void (^)())success failure:(APIClientErrorBlock)failure;
+-(void) registerWithEmailAddress:(NSString*)username password:(NSString*)password success:(void (^)())success failure:(APIClientErrorBlock)failure;
+-(void) loginWithRequest:(LoginRequest*)loginRequest success:(void (^)())success failure:(APIClientErrorBlock)failure;
+-(void) logoutWithRequest:(LogoutRequest*)logoutRequest success:(void (^)())success failure:(APIClientErrorBlock)failure;
+-(void) requestKeyboard:(NSString*)emailAddress success:(void (^)(NSString* keyboard))success failure:(APIClientErrorBlock)failure;
+-(void) requestToken:(TokenRequest*)tokenRequest success:(void (^)(NSString* token))success failure:(APIClientErrorBlock)failure;
+-(void) redeemToken:(RedeemTokenRequest*)redeemTokenRequest success:(void (^)(NSString* id))success failure:(APIClientErrorBlock)failure;
 
 @end
